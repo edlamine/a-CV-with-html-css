@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-size: 28px;
+    
+}
+.section{
+    position: relative;
+    background-color: #91c5dd;
+    height: 350px;
+    width: 900px;
+    margin: 500 auto;
+    border-radius: 20px;
+}
+
+h2{
+    margin-bottom: 10px;  
+    color: rgb(18, 18, 18);
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+ul li{
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(10, 10, 10);
+}
