@@ -49,15 +49,13 @@
   .section{
     margin-bottom: 1.5rem;
     font-size: medium;
-    /* border-bottom: 1.5px solid black;
-    border-top: 1.5px solid black; */
   }
   
   /* LEFT COLUMN */
   .left-column{
     grid-area: left-column;
     padding: 50px;
-    background-color: rgb(155, 193, 220);
+    background-color: rgb(252, 252, 252);
     color: rgb(10, 10, 10);
   }
   
@@ -77,7 +75,7 @@
     grid-template-areas: 
       "header"
       "content";
-      background-color: hsl(120, 100, 100);
+      background-color: rgb(254, 254, 254);
   }
   
   /* HEADER */
@@ -103,16 +101,10 @@
   .petit-italic{
     font-style: italic;
     font-size: x-small;
-    list-style-type: none;
   }
   .situation{
     font-style: italic;
     font-size: x-small;
   }
-  .border{
-    border-bottom: 1.5px solid black;
-    border-top: 1.5px solid black;
-  }
-  
   
   

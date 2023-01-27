@@ -6,8 +6,25 @@
 .hero{
     position: relative;
     width: 100%;
-    height: 100vh;
-    background: #fdfdfd;
+    height: 120vh;
+    flex-direction: column;
+    background-image: url("tache.png");
+}
+.old{
+    flex-basis: 33%;
+}
+.present{
+    flex-basis: 33%;
+}
+.futur{
+    flex-basis: auto;
+}
+.logo{
+    width: 10%;
+    height: 10vh;
+    padding-right: auto;
+    
+    
 }
 
 nav{
@@ -43,7 +60,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 span{
-    color: rgb(37, 142, 190);
+    color: rgb(5, 67, 95);
 }
 .detel{
     color: #555;
@@ -62,14 +79,11 @@ span{
 .detel a:hover{
     color: rgb(37, 142, 190);
 }
-/* .images{
-    width: 15%;
-    height: 35%;
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-} */
+
 
 body{
     background-image: url("tache.png");
+    color: #fff;
+    padding: 50px;
+    display: flex;
 }

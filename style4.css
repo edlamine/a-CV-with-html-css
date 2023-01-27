@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 130%;
+    height: 80%;
+    /* background-image: url("tache.png"); */
+}
+.old{
+    flex-basis: 33%;
+}
+.present{
+    flex-basis: 33%;
+}
+.futur{
+    flex-basis: auto;
+}
+.logo{
+    width: 10%;
+    height: 10vh;
+    padding-right: auto;
+    
+    
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    padding: 30px 0;
+    align-items: left;
+    justify-content: space-between;
+}
+nav ul li{
+    position: relative;
+    bottom: 130px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin: 10px 20px;
+    justify-items: space-evenly;
+
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    background:#212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+/* nav ul li{
+    position: relative;
+    bottom:  130px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+} */
+nav ul li a:hover{
+    color: rgb(37, 142, 190);
+}
+.detel{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+/* .zeghar{
+    position: relative;
+    font-size: 50px;
+    color: #212121;
+    bottom: 400px;
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+} */
+.detel h1{
+    position: relative;
+    font-size: 50px;
+    color: #212121;
+    bottom: 400px;
+    margin-left: 50%;
+    margin-right: auto;
+}
+span{
+    color: rgb(16, 100, 142);
+}
+.detel{
+    color: #555;
+    line-height: 22px;
+}
+/* .detel a{
+    background:#212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+} */
+.detel a:hover{
+    color: rgb(37, 142, 190);
+}
+
+
+body{
+    background-image: url("tache.png");
+    color: #fff;
+    padding: 50px;
+    display: flex;
+}
+.detel img{
+    height: 500px;
+    position: relative;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-bottom: 50%;
+    border-radius: 2%;
+    align-items: center;
+    margin: 10px 50px;
+}
+.detel p{
+    position: relative;
+    bottom: 370px;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: auto;
+    color: #212121;
+    font-size: large;
+}
+

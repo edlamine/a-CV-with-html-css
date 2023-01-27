@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-size: 28px;
+    
+}
+.section{
+    position: relative;
+    background-color: #6999ca;
+    height: 440px;
+    width: 900px;
+    margin: 500 auto;
+    border-radius: 20px;
+}
+.lamine{
+    font-style: italic;
+    font-size: small;
+}
+.situation{
+    font-style: italic;
+    font-size: small;
+}
+h2{
+    margin-bottom: 10px;  
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+ul li{
+    position: relative;
+    bottom: 0px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+.petit-italic{
+    font-style: italic;
+    font-size: small;
+    list-style-type: none;
+}
+
+.introduction{
+    font-weight: 100;
+    font-style: italic;
+    font-size: small;
+}
